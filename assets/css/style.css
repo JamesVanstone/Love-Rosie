@@ -355,3 +355,21 @@ footer {
     margin: 0 auto;
     max-width: 70%;
 }
+
+button[type="submit"] {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: #fafafa;
+    background-color: #e84610;
+}
+
+/* Media Query */
+
+@media(min-width:992px) {
+    .center-form {
+        padding-top: 30;
+        min-height: 240;
+        margin: 0 auto;
+        max-width: 50%;
+    }
+}
